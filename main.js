@@ -1,4 +1,5 @@
-const container = document.getElementById("container");
+const { container } = require("./container");
+
 const imageOne = document.querySelector(".image-1");
 const imageTwo = document.querySelector(".image-2");
 const btnYes = document.querySelector(".btn-yes");
