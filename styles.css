@@ -12,7 +12,7 @@
     padding: 2rem;
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(to right bottom, #cffafe, #22d3ee);
+    background-image: linear-gradient(to right bottom, #5e1717, #7c1b1b);
     display: flex;
     flex-direction: column;
   }
@@ -47,7 +47,7 @@
   }
   
   .image-2 {
-    width: 250px;
+    width: 400px;
   }
   
   .btn {
@@ -81,3 +81,10 @@
     transition: all 0.5s ease;
     z-index: 2;
   }
+
+  #question {
+      font-family: 'Sacramento', cursive; /* Apply Sacramento font to the question */
+      font-size: 52px; /* Set font size for the question */
+      color: #d19090;
+  }
+  
